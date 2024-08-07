@@ -1,0 +1,6 @@
+Version 0.2 (April 19, 2020)
+ -Fixed bug in start file
+ -Toolbox cleanup
+
+Version 0.1 (November 15, 2019)
+ -Published the first release

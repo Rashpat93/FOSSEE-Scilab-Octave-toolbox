@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: XML a file:15
+msgid "Color"
+msgstr ""
+
+#: XML a file:5
+msgid "Height"
+msgstr ""
+
+#: XML a file:4
+msgid "My Title"
+msgstr ""
+
+#: XML a file:16
+msgid "Outline"
+msgstr ""
+
+#: XML a file:3
+msgid "Rectangle"
+msgstr ""
+
+#: XML a file:10
+msgid "Width"
+msgstr ""
+
+#: macros\scilab_error.sci:13
+msgid "%s: I''m waiting for only one argument.\n"
+msgstr ""
+
+#: macros\scilab_error.sci:17 sci_gateway\c\sci_cerror.c:22
+msgid "%s: Yeah! %d is a good number of arguments but I prefer fail, sorry.\n"
+msgstr ""
+
+#: sci_gateway\c\sci_cerror.c:17
+msgid "%s: I'm waiting only one argument.\n"
+msgstr ""
