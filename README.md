@@ -34,4 +34,21 @@ In case if executing the builder and loader files in scilab throw an error regar
 5. `make`
 6. `make install`
 
+## Issues Faced in Scilab-Octave Toolbox Development
+
+The Scilab team at FOSSEE, IIT Bombay is developing a toolbox to enable Octave functionalities within Scilab. Throughout this development, we have encountered several key challenges related to version compatibility, dependency management, and build complexity. We are sharing these issues to seek community input and facilitate collaborative problem-solving.
+
+1. Version Compatibility Issues
+Problem: Updates in Scilab can alter the behavior of toolboxes, particularly those involving C or C++ code. For instance, our Octave toolbox, which functioned well in Scilab 5.x, failed in Scilab 6 due to changes in the C interface. These changes resulted in crashes of our function calls.
+Impact: Each new version of Scilab requires us to validate and potentially modify our toolbox to ensure compatibility, creating a continuous maintenance burden.
+
+2. Dependency Management Challenges
+Problem: Toolboxes often rely on specific versions of external libraries. For instance, the current version of the Scilab Octave toolbox requires liboctave6. However, upgrading to a newer version of Octave may necessitate liboctave7 or a higher version, depending on the latest release. This discrepancy can prevent the toolbox from functioning unless the exact older version of liboctave and its dependencies are installed.
+Impact: This version mismatch complicates the management of library dependencies and requires careful handling to ensure the toolbox continues to work correctly after an Octave upgrade.
+
+3. Build Process Complications
+Problem: Recommending a source-only approach for building the Octave toolbox presents significant challenges. Users must install a complete C/C++ toolchain, Octave headers, and libraries, and properly configure the builder.sce file with system-specific paths. This process varies across different operating systems (Linux, Windows, Mac) and can be particularly challenging for new users.
+Impact: The complexity of setup and configuration can discourage users from successfully building the toolbox, making it hard for people to use.
+Call for Contributions
+We invite contributors to assist in resolving these issues. Your expertise and insights could help us overcome these challenges and improve the functionality and accessibility of the Scilab-Octave toolbox.
 
