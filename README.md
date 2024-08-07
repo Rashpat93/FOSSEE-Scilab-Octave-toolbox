@@ -3,9 +3,9 @@
 This is a scilab toolbox to call octave functions. It requires octave to be installed on the system. 
 
 ## This toolbox has been built and tested using 
-1. `OS - Linux Debian 10, Ubuntu 18.10 and 19.10 (64-bit)`
-2. `Octave - Version 4.4.1, 5.1.0`
-3. `Scilab - Version 6.0.x`
+1. `OS - Linux Debian 10, Ubuntu 23.04 (64-bit)`
+2. `Octave - Version 7.3.0
+3. `Scilab - Version 6.1.x
 
 ## Software prerequisites:
 Run the following commands in the linux terminal
