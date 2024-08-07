@@ -4,8 +4,8 @@ This is a scilab toolbox to call octave functions. It requires octave to be inst
 
 ## This toolbox has been built and tested using 
 1. `OS - Linux Debian 10, Ubuntu 23.04 (64-bit)`
-2. `Octave - Version 7.3.0
-3. `Scilab - Version 6.1.x
+2. `Octave - Version 7.3.0`
+3. `Scilab - Version 6.1.x`
 
 ## Software prerequisites:
 Run the following commands in the linux terminal
