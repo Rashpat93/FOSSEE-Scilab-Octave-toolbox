@@ -50,6 +50,6 @@ The Scilab team at FOSSEE, IIT Bombay is developing a toolbox to enable Octave f
 ** Problem:** Recommending a source-only approach for building the Octave toolbox presents significant challenges. Users must install a complete C/C++ toolchain, Octave headers, and libraries, and properly configure the builder.sce file with system-specific paths. This process varies across different operating systems (Linux, Windows, Mac) and can be particularly challenging for new users.
 ** Impact:** The complexity of setup and configuration can discourage users from successfully building the toolbox, making it hard for people to use.
 
-** _Call for Contributions_ **
-We invite contributors to assist in resolving these issues. Your expertise and insights could help us overcome these challenges and improve the functionality and accessibility of the Scilab-Octave toolbox.
+**Call for Contributions
+**We invite contributors to assist in resolving these issues. Your expertise and insights could help us overcome these challenges and improve the functionality and accessibility of the Scilab-Octave toolbox.
 
