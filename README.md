@@ -51,5 +51,5 @@ The Scilab team at FOSSEE, IIT Bombay is developing a toolbox to enable Octave f
 ** Impact:** The complexity of setup and configuration can discourage users from successfully building the toolbox, making it hard for people to use.
 
 **Call for Contributions
-**We invite contributors to assist in resolving these issues. Your expertise and insights could help us overcome these challenges and improve the functionality and accessibility of the Scilab-Octave toolbox.
+We invite contributors to assist in resolving these issues. Your expertise and insights could help us overcome these challenges and improve the functionality and accessibility of the Scilab-Octave toolbox. **
 
